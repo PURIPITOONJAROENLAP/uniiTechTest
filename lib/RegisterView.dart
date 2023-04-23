@@ -46,7 +46,6 @@ class _RegisterViewState extends State<RegisterView> {
   }
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _phoneController.addListener(_phoneControllerListener);
   }
@@ -90,7 +89,7 @@ class _RegisterViewState extends State<RegisterView> {
                         color: Colors.black.withOpacity(0.1),
                         spreadRadius: 2,
                         blurRadius: 5,
-                        offset: Offset(0, 3), // changes position of shadow
+                        offset: Offset(0, 3), 
                       ),
                     ],
                   ),
