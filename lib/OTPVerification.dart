@@ -137,7 +137,7 @@ class _OTPVerificationState extends State<OTPVerification> {
                         color: Colors.black.withOpacity(0.1),
                         spreadRadius: 2,
                         blurRadius: 5,
-                        offset: Offset(0, 3), // changes position of shadow
+                        offset: Offset(0, 3), 
                       ),
                     ],
                   ),
